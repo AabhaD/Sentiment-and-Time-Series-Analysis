@@ -16,9 +16,13 @@ Two datasets have been used for this analysis.
 
 # Hypotheses :
 Hypothesis 1: The dominant sentiment about the vaccine is Positive.
+
 Hypothesis 2: The daily average sentiment follows an upward trend.
+
 Hypothesis 3: The sentiment series is stationary and can be used to forecast average sentiment score in the future.
+
 Hypothesis 4: There is a strong correlation between the average sentiment score and the percentage of people vaccinated.
+
 Hypothesis 5: There is a strong correlation between the average sentiment score and daily number of tweets.
 
 # Skills used - 
