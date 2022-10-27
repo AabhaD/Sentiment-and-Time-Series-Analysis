@@ -23,6 +23,7 @@ Hypothesis 5: There is a strong correlation between the average sentiment score 
 
 # Skills used - 
 Programming Language - R
+
 Data Science Skills - Preprocessing, Handling missing values, EDA, Hypothesis Testing, ARIMA,  Text Analytics (Vader Sentiment Analysis, Wordcloud)
 
 # Future Opportunities :
