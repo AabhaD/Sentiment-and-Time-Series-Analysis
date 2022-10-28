@@ -10,8 +10,8 @@ In this report, sentiment and time series analysis has been used to answer three
 
 ## Data Description 
 Two datasets have been used for this analysis.
-1. Pfizer & BioNTech Vaccine Tweets - This dataset includes tweets about Pfizer-BionTech Vaccines from 12 Dec 2020 to 15 Mar 2021. It provides 6818 records/observations with 16 variables such as id, user_name, user_description, user_followers, date, text, hashtags, retweets etc.
-2. COVID-19 World Vaccination Progress - This dataset includes the Daily and Total Vaccination data for COVID-19 from 19 Dec 2020 to 15 Mar 2021, in the World. It provides 6517 records/observations with 15 variables such as country, date, vaccines, total_vaccinations, people_vaccinated, people_fully_vaccinated, daily_vaccinations etc.
+1. [Pfizer & BioNTech Vaccine Tweets](https://www.kaggle.com/gpreda/pfizer-vaccine-tweets) - This dataset includes tweets about Pfizer-BionTech Vaccines from 12 Dec 2020 to 15 Mar 2021. It provides 6818 records/observations with 16 variables such as id, user_name, user_description, user_followers, date, text, hashtags, retweets etc.
+2. [COVID-19 World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress/code?datasetId=1093816&language=R) - This dataset includes the Daily and Total Vaccination data for COVID-19 from 19 Dec 2020 to 15 Mar 2021, in the World. It provides 6517 records/observations with 15 variables such as country, date, vaccines, total_vaccinations, people_vaccinated, people_fully_vaccinated, daily_vaccinations etc.
 
 ## Hypotheses :
 1. The dominant sentiment about the vaccine is Positive.
@@ -23,12 +23,6 @@ Two datasets have been used for this analysis.
 ## Code and Resources used : 
 **Python Version:** 3.7
 **Packages:** pandas, numpy, sklearn, matplotlib
-
-## Future Opportunities :
-While this analysis may seem thorough, there are a few opportunities to improve this analysis further. These are listed as follows:
-* As can be seen from the wordcloud of people having Neutral sentiment, Pfizer-BioNTech as an individual brand has not much impact. Pfizer-BioNTech can use this analysis to improve their public reach and emphasize how their vaccine is better as compared to other vaccine manufacturers.
-* This analysis can be extended to other vaccines used in USA like Moderna.
-* Vaccine manufacturer’s can approach people for next clinical trials if their overall sentiment about the vaccine has been positive.
 
 ## Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
@@ -42,10 +36,14 @@ Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, 
 
 ![Positive Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/positive%20sentiment%20tweets.png)
 
+## Future Opportunities :
+While this analysis may seem thorough, there are a few opportunities to improve this analysis further. These are listed as follows:
+* As can be seen from the wordcloud of people having Neutral sentiment, Pfizer-BioNTech as an individual brand has not much impact. Pfizer-BioNTech can use this analysis to improve their public reach and emphasize how their vaccine is better as compared to other vaccine manufacturers.
+* This analysis can be extended to other vaccines used in USA like Moderna.
+* Vaccine manufacturer’s can approach people for next clinical trials if their overall sentiment about the vaccine has been positive.
+
 ### References and Sources :
-1. Pfizer and BioNTech Vaccine Tweets - This dataset has tweets about Pfizer-BionTech Vaccines. https://www.kaggle.com/gpreda/pfizer-vaccine-tweets
-2. COVID-19 World Vaccination Progress - This dataset has data about Daily and Total Vaccination for COVID-19 in the World https://www.kaggle.com/gpreda/covid-world-vaccination-progress/code?datasetId=1093816&language=R
-3. https://en.wikipedia.org/wiki/COVID-19_recession#:~:text=The%20COVID%2D19%20pandemic%20is,30%20Januar
-4. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html
-5. https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-confirm-highefficacy-and-no-serious
-6. https://www.theguardian.com/world/2021/feb/25/pfizer-covid-vaccine-94-effective-study-of-12mpeople-finds
+1. https://en.wikipedia.org/wiki/COVID-19_recession#:~:text=The%20COVID%2D19%20pandemic%20is,30%20Januar
+2. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html
+3. https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-confirm-highefficacy-and-no-serious
+4. https://www.theguardian.com/world/2021/feb/25/pfizer-covid-vaccine-94-effective-study-of-12mpeople-finds
