@@ -20,10 +20,9 @@ Two datasets have been used for this analysis.
 4. There is a strong correlation between the average sentiment score and the percentage of people vaccinated.
 5. There is a strong correlation between the average sentiment score and daily number of tweets.
 
-## Skills used - 
-Programming Language - R
-
-Data Science Skills - Preprocessing, Handling missing values, EDA, Hypothesis Testing, ARIMA,  Text Analytics (Vader Sentiment Analysis, Wordcloud)
+## Code and Resources used : 
+**Python Version:** 3.7
+**Packages:** pandas, numpy, sklearn, matplotlib
 
 ## Future Opportunities :
 While this analysis may seem thorough, there are a few opportunities to improve this analysis further. These are listed as follows:
