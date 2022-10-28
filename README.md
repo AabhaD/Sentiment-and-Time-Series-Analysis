@@ -7,6 +7,7 @@ In this report, sentiment and time series analysis has been used to answer three
 1. Is willingness to be vaccinated increasing or decreasing?
 2. What are some of the reasons for public hesitancy about getting vaccinated?
 3. What motivates people most to get vaccinated?
+
 From this analysis, we can conclude that, people are generally accepting towards Pfizer-BioNTech COVID-19 vaccine and are willing to get vaccinated. People having negative attitude towards the vaccine are more concerned about the side effects, it’s safety and allergies. People showcasing positive sentiment seem to believe in scientific studies carried out to develop the vaccine, approvals given and efficacy of the vaccine against COVID-19. This analysis would help public health authorities design and plan vaccine campaigns to increase public inoculation by focusing their ads and campaigns on concerns that people have.
 
 ## Data Description 
