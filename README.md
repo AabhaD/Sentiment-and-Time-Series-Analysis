@@ -32,13 +32,13 @@ While this analysis may seem thorough, there are a few opportunities to improve 
 * This analysis can be extended to other vaccines used in USA like Moderna.
 * Vaccine manufacturer’s can approach people for next clinical trials if their overall sentiment about the vaccine has been positive.
 
-# Conclusion :
+## Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
 1. The willingness to get vaccinated has been increasing, however, in future the willingness seems to remain constant.
 2. The percentage of people vaccinated and daily number of tweets do not motivate people to get vaccinated. What motivates them is the scientific data, information about the approvals given for the vaccine and efficacy of the vaccine. We also see that people who got vaccinated are more confident about the vaccine. These people can be approached to advocate about the vaccine through social media.
 3. Some of the reasons for the public hesitancy towards Pfizer-BioNtech and vaccines in general, are concerns like safety, severe side effects and allergies. Thus, the public health authorities should design and plan their campaigns in such away that they emphasize more on the concerns people have. They should provide more information and transparency on the efficacy and approval process through social media so as to reach maximum public.
 
-# References and Sources :
+### References and Sources :
 1. Pfizer and BioNTech Vaccine Tweets - This dataset has tweets about Pfizer-BionTech Vaccines. https://www.kaggle.com/gpreda/pfizer-vaccine-tweets
 2. COVID-19 World Vaccination Progress - This dataset has data about Daily and Total Vaccination for COVID-19 in the World https://www.kaggle.com/gpreda/covid-world-vaccination-progress/code?datasetId=1093816&language=R
 3. https://en.wikipedia.org/wiki/COVID-19_recession#:~:text=The%20COVID%2D19%20pandemic%20is,30%20Januar
