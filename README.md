@@ -26,14 +26,14 @@ Two datasets have been used for this analysis.
 ## Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
 1. The willingness to get vaccinated has been increasing, however, in future the willingness seems to remain constant.
-![Hypothesis 1](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis%201.png)
-![Hypothesis 2](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis%202.png)
-![Hypothesis 3](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis%203.png)
+![Hypothesis 1](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis1.png)
+![Hypothesis 2](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis2.png)
+![Hypothesis 3](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis3.png)
 2. The percentage of people vaccinated and daily number of tweets do not motivate people to get vaccinated. What motivates them is the scientific data, information about the approvals given for the vaccine and efficacy of the vaccine. We also see that people who got vaccinated are more confident about the vaccine. These people can be approached to advocate about the vaccine through social media.
-![Hypothesis 4](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis%204.png)
+![Hypothesis 5](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis5.png)
 3. Some of the reasons for the public hesitancy towards Pfizer-BioNtech and vaccines in general, are concerns like safety, severe side effects and allergies. Thus, the public health authorities should design and plan their campaigns in such away that they emphasize more on the concerns people have. They should provide more information and transparency on the efficacy and approval process through social media so as to reach maximum public.
 
-![Positive Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/positive%20sentiment%20tweets.png)
+![Positive Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/positive%20wordcloud.png)
 
 ## Future Opportunities :
 While this analysis may seem thorough, there are a few opportunities to improve this analysis further. These are listed as follows:
