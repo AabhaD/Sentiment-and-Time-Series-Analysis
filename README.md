@@ -1,6 +1,6 @@
-# Sentiment and Time series Analysis for Pfizer &amp; BioNTech COVID-19 Vaccine
+## Sentiment and Time series Analysis for Pfizer &amp; BioNTech COVID-19 Vaccine
 
-## Executive Summary
+### Executive Summary
 COVID-19, is an ongoing global pandemic of coronavirus disease 2019 caused by severe acute respiratory syndrome coronavirirus 2 (SARS CoV-2). The virus was first identified in Dec 2019 in Wuhan, china and on 11th of Mar 2020 WHO declared it a pandemic. With more than 147 million confirmed cases and more than 3.12 million deaths, this has been one of the deadliest pandemics in history. Various COVID-19 vaccines have been developed to provide acquired immunity against this virus and as of today, 13 vaccines have been authorized by at least one national regulatory authority for public use all over the world. CDC has authorized and recommended 3 vaccines in the United States to prevent COVID-19: 1. Pfizer-BioNTech, 2. Moderna and 3. Johnson & Johnson/Janssen.
 On December 11,2020, the U.S. Food and Drug Administration issued the first emergency use authorization (EUA) that allowed the Pfizer-BioNTech COVID-19 Vaccine to be distributed in the U.S. There has been a fair amount of concern regarding this vaccine and it will be critical for public health authorities to be able to effectively counter negative public attitude towards the vaccine.
 In this report, sentiment and time series analysis has been used to answer three important questions regarding Pfizer-BioNtech COVID-19 vaccine:
@@ -8,7 +8,7 @@ In this report, sentiment and time series analysis has been used to answer three
 2. What are some of the reasons for public hesitancy about getting vaccinated?
 3. What motivates people most to get vaccinated?
 
-## Data and Code used : 
+### Data and Code used : 
 Two datasets have been used for this analysis.
 1. [Pfizer & BioNTech Vaccine Tweets](https://www.kaggle.com/gpreda/pfizer-vaccine-tweets) - This dataset includes tweets about Pfizer-BionTech Vaccines from 12 Dec 2020 to 15 Mar 2021. It provides 6818 records/observations with 16 variables such as id, user_name, user_description, user_followers, date, text, hashtags, retweets etc.
 2. [COVID-19 World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress/code?datasetId=1093816&language=R) - This dataset includes the Daily and Total Vaccination data for COVID-19 from 19 Dec 2020 to 15 Mar 2021, in the World. It provides 6517 records/observations with 15 variables such as country, date, vaccines, total_vaccinations, people_vaccinated, people_fully_vaccinated, daily_vaccinations etc.
@@ -16,14 +16,14 @@ Two datasets have been used for this analysis.
 **R**
 **Packages:** ggplot2, knitr, tidyverse, dplyr, stringr, tidytext, glue, topicmodels, tm, viridis, maps, snowballC, lubridate, cowplot, vader, corpus, wordcloud, qdap,ggrepel,reshape, ggcorrplot, gridExtra, fpp3, GGally, tsibble, tibbletime, openair, scales, RColorBrewer, ggthemes, pathwork, purr
 
-## Hypotheses :
+### Hypotheses :
 1. The dominant sentiment about the vaccine is Positive.
 2. The daily average sentiment follows an upward trend.
 3. The sentiment series is stationary and can be used to forecast average sentiment score in the future.
 4. There is a strong correlation between the average sentiment score and the percentage of people vaccinated.
 5. There is a strong correlation between the average sentiment score and daily number of tweets.
 
-## Conclusion :
+### Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
 1. The willingness to get vaccinated has been increasing, however, in future the willingness seems to remain constant.
 ![Hypothesis 1](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Hypothesis1.png)
@@ -35,13 +35,13 @@ Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, 
 
 ![Positive Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/positive%20wordcloud.png)
 
-## Future Opportunities :
+### Future Opportunities :
 While this analysis may seem thorough, there are a few opportunities to improve this analysis further. These are listed as follows:
 * As can be seen from the wordcloud of people having Neutral sentiment, Pfizer-BioNTech as an individual brand has not much impact. Pfizer-BioNTech can use this analysis to improve their public reach and emphasize how their vaccine is better as compared to other vaccine manufacturers.
 * This analysis can be extended to other vaccines used in USA like Moderna.
 * Vaccine manufacturer’s can approach people for next clinical trials if their overall sentiment about the vaccine has been positive.
 
-### References and Sources :
+#### References and Sources :
 1. https://en.wikipedia.org/wiki/COVID-19_recession#:~:text=The%20COVID%2D19%20pandemic%20is,30%20Januar
 2. https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/how-they-work.html
 3. https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-confirm-highefficacy-and-no-serious
