@@ -8,10 +8,13 @@ In this report, sentiment and time series analysis has been used to answer three
 2. What are some of the reasons for public hesitancy about getting vaccinated?
 3. What motivates people most to get vaccinated?
 
-## Data Description 
+## Data and Code used : 
 Two datasets have been used for this analysis.
 1. [Pfizer & BioNTech Vaccine Tweets](https://www.kaggle.com/gpreda/pfizer-vaccine-tweets) - This dataset includes tweets about Pfizer-BionTech Vaccines from 12 Dec 2020 to 15 Mar 2021. It provides 6818 records/observations with 16 variables such as id, user_name, user_description, user_followers, date, text, hashtags, retweets etc.
 2. [COVID-19 World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress/code?datasetId=1093816&language=R) - This dataset includes the Daily and Total Vaccination data for COVID-19 from 19 Dec 2020 to 15 Mar 2021, in the World. It provides 6517 records/observations with 15 variables such as country, date, vaccines, total_vaccinations, people_vaccinated, people_fully_vaccinated, daily_vaccinations etc.
+
+**R**
+**Packages:** ggplot2, knitr, tidyverse, dplyr, stringr, tidytext, glue, topicmodels, tm, viridis, maps, snowballC, lubridate, cowplot, vader, corpus, wordcloud, qdap,ggrepel,reshape, ggcorrplot, gridExtra, fpp3, GGally, tsibble, tibbletime, openair, scales, RColorBrewer, ggthemes, pathwork, purr
 
 ## Hypotheses :
 1. The dominant sentiment about the vaccine is Positive.
@@ -19,10 +22,6 @@ Two datasets have been used for this analysis.
 3. The sentiment series is stationary and can be used to forecast average sentiment score in the future.
 4. There is a strong correlation between the average sentiment score and the percentage of people vaccinated.
 5. There is a strong correlation between the average sentiment score and daily number of tweets.
-
-## Code and Resources used : 
-**R**
-**Packages:** ggplot2, knitr, tidyverse, dplyr, stringr, tidytext, glue, topicmodels, tm, viridis, maps, snowballC, lubridate, cowplot, vader, corpus, wordcloud, qdap,ggrepel,reshape, ggcorrplot, gridExtra, fpp3, GGally, tsibble, tibbletime, openair, scales, RColorBrewer, ggthemes, pathwork, purr
 
 ## Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
