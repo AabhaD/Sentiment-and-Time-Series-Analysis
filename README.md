@@ -42,8 +42,6 @@ Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, 
 3. Some of the reasons for the public hesitancy towards Pfizer-BioNtech and vaccines in general, are concerns like safety, severe side effects and allergies. Thus, the public health authorities should design and plan their campaigns in such away that they emphasize more on the concerns people have. They should provide more information and transparency on the efficacy and approval process through social media so as to reach maximum public.
 
 ![Positive Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/positive%20sentiment%20tweets.png)
-![Negative Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/negative%20sentiment%20tweets.png)
-![Neutral Sentiment wordcloud](https://github.com/AabhaD/Sentiment-and-Time-Series-Analysis/blob/main/images/Neutral%20sentiment%20tweets.png)
 
 ### References and Sources :
 1. Pfizer and BioNTech Vaccine Tweets - This dataset has tweets about Pfizer-BionTech Vaccines. https://www.kaggle.com/gpreda/pfizer-vaccine-tweets
