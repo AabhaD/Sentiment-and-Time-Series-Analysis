@@ -21,8 +21,8 @@ Two datasets have been used for this analysis.
 5. There is a strong correlation between the average sentiment score and daily number of tweets.
 
 ## Code and Resources used : 
-**Python Version:** 3.7
-**Packages:** pandas, numpy, sklearn, matplotlib
+**R**
+**Packages:** ggplot2, knitr, tidyverse, dplyr, stringr, tidytext, glue, topicmodels, tm, viridis, maps, snowballC, lubridate, cowplot, vader, corpus, wordcloud, qdap,ggrepel,reshape, ggcorrplot, gridExtra, fpp3, GGally, tsibble, tibbletime, openair, scales, RColorBrewer, ggthemes, pathwork, purr
 
 ## Conclusion :
 Using the Pfizer and BioNTech Vaccine Tweets and Vaccination progress datasets, we conclude:
