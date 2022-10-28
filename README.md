@@ -1,4 +1,4 @@
-# Sentiment and Time series Analysis for Pfizer &amp; BioNTech COVID-19 Vaccine (Presented on 05/06/2021)
+# Sentiment and Time series Analysis for Pfizer &amp; BioNTech COVID-19 Vaccine
 
 ## Executive Summary
 COVID-19, is an ongoing global pandemic of coronavirus disease 2019 caused by severe acute respiratory syndrome coronavirirus 2 (SARS CoV-2). The virus was first identified in Dec 2019 in Wuhan, china and on 11th of Mar 2020 WHO declared it a pandemic. With more than 147 million confirmed cases and more than 3.12 million deaths, this has been one of the deadliest pandemics in history. Various COVID-19 vaccines have been developed to provide acquired immunity against this virus and as of today, 13 vaccines have been authorized by at least one national regulatory authority for public use all over the world. CDC has authorized and recommended 3 vaccines in the United States to prevent COVID-19: 1. Pfizer-BioNTech, 2. Moderna and 3. Johnson & Johnson/Janssen.
